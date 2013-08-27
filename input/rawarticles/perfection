@@ -1,0 +1,32 @@
+Strive For Perfection
+
+<h1>Strive For Perfection</h1>
+<h3>Written by John Fish</h3>
+<h3>This article is a direct response to the article <a href="http://ecustom.ca/articles/imperfect-design/">"Stop Designing Perfectly"</a> written by Lucas Cherkewski, a good friend of mine.</h3>
+<p>
+<h2>
+Perfection Is Impossible
+</h2>
+Perfection is impossible, and that needs to be at the back of your mind in whatever you do. Whether design, schoolwork, sports, mistakes are bound to be made. As Albert Einstein said <i>"anyone who has never made a mistake has never tried anything new."</i> While this quote is overused and generally misused, it's important to note that this quote has the underlying meaning that perfection is an impossibility.
+</p>
+
+<p>
+<h2>
+So Why Strive For Perfection?
+</h2>
+We strive for perfection so that we can achieve the best that we can do. Striving for perfection puts us in a mindset where we can not accept making any mistakes. In code, this generally means that you will have cleaner and more functional designs. A perfect design is an impossibility, and we will touch on that more in the next section, but settling for less than your best is never acceptable. If you know that you can get a 100% on a test but in reality you only get a 90% because you chose to only show some of your work, is that really acceptable in your eyes? The test anecdote is not perhaps applicable to the topic at hand because of one reason: A test is <b>objective</b>, a design is <b>subjective</b>.
+</p>
+
+<p>
+<h2>
+Subjectivity v. Objectivity
+</h2>
+The issue that many people have with striving for a "perfect" design is that all designs are completely subjective. By this, I mean that an 80% in your eyes might be a 90% in anothers eyes. In this way, it is shown that perfect designs are impossible. If there were an objective, or non-questionable, form of measuring designs then perhaps then my overall point with this article would be different. But as it stands, I hold by my point that it is impossible to achieve a perfect design.
+</p>
+
+<p>
+<h2>
+To Wrap It All Up
+</h2>
+The point I have tried to make in this article is this: perfection is impossible in designs, but if we allow for ourselves to only write "acceptable" code then we will never improve on ourselves. Designs created with the mentality that mistakes are "okay" are generally more buggy than designs created with the mentality that mistakes are "unacceptable". So while perfection is impossible and you will never have a design with objectively no mistakes, only pushing yourself to do "acceptable" work will never get you to a state wherein you can look back and see that you have improved greatly over time. And that is what development is all about to me, improvement.
+</p>

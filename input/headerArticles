@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Fauna+One|Habibi' rel='stylesheet' type='text/css'>
+    <title>
+        Articles
+    </title>
+</head>
+<body>
+<nav>
+    <a href="articles.html" class="navLink">a</a>
+    <a href="../about.html" class="navLink">&Uuml;</a>
+    <a href="../index.html" class="home">johnafish</a>
+</nav>
+<section id="main">
+    <article>
+        <h1>Articles</h1>
+        <ul>

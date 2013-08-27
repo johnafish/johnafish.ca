@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'Sosa';
+	src: url('fonts/sosa/sosa-regular-webfont.eot'); /* IE9 Compat Modes */
+	src: url('fonts/sosa/sosa-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/sosa/sosa-regular-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/sosa/sosa-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/sosa/sosa-regular-webfont.svg#sosa') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'socialicons';
+    src: url('fonts/socialicons/MonoSocialIconsFont-1.10.eot');
+    src: url('fonts/socialicons/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('fonts/socialicons/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('fonts/socialicons/MonoSocialIconsFont-1.10.ttf') format('truetype');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background: #FEFEFE;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+nav {
+    text-align: right;
+    margin: 1% 20% 0 0;
+}
+.navLink {
+    font-family: Sosa, sans-serif;
+    float: right;
+}
+.home {
+    font-family: Fauna One;
+}
+nav a {
+    margin: 0px 10px 10px 10px;
+    display: block;
+    line-height: 64px;
+    color: #111;
+    text-decoration: none;
+    text-align: right;
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+}
+nav a:hover {
+    color: #1079E8;
+}
+@media all and (min-width: 1500px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+        }
+    h3 {
+        font-size: 24px;
+    }
+    article {
+        font-size: 20px;
+    }
+    nav a {
+        font-size: 72px;
+    }
+    .navLink {
+        font-size: 64px;
+    }
+    li a {
+        font-size: 28px;
+    }
+    article p:first-letter {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    article p:first-line {
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 1500px) and (min-width: 1100px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+        }
+    h3 {
+        font-size: 20px;
+    }
+    article {
+        font-size: 18px;
+    }
+    nav a {
+        font-size: 64px;
+    }
+    .navLink {
+        font-size: 56px;
+    }
+    li a {
+        font-size: 24px;
+    }
+    article p:first-letter {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    article p:first-line {
+        font-size: 22px;
+    }
+}
+@media all and (max-width: 1100px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    article {
+        font-size: 16px;
+    }
+    nav a {
+        font-size: 48px;
+    }
+    .navLink {
+        font-size: 36px;
+    }
+    li a {
+        font-size: 20px;
+    }
+    article p:first-letter {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    article p:first-line {
+        font-size: 19px;
+    }
+}
+article {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    text-align: justify;
+    font-family: Habibi, serif;
+    color: #111;
+}
+article a {
+    color: #111;
+}
+article a:visited {
+    color: #111;
+}
+article a:hover {
+    color: #444;
+}
+ul {
+    list-style-type: none;
+}
+article p {
+    padding: 0px 0px 40px 0px;
+    line-height: 150%;
+}
+
+#footer {
+    width: 60%;
+    padding: 0 20%;
+    position: relative;
+    overflow: hidden;
+}
+#footer a {
+    float: right;
+    overflow: hidden;
+    padding: 0px 3px;
+    font-family: socialicons;
+    color: #111;
+    font-size: 48px;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+#footer a:hover {
+    opacity: 1;
+    color: #1079E8;
+}

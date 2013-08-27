@@ -1,0 +1,29 @@
+Imageless Design
+
+<h1>Imageless Design</h1>
+<h3>Written by John Fish</h3>
+
+<p>
+<h2>Introduction</h2>
+When designing this website, I made an attempt to follow one rule only with the design: <b>no images.</b> Now, you might say "But John! There are images in the footer! In your nav!" And that is where you would be mistaken. Imageless design uses alternative forms of creating the site that you want without sacrificing the design. This article is designed to guide you to use less images in your designs.
+</p>
+
+<p>
+<h2>Icon Fonts</h2>
+In my site, specifically my nav (links up top) and footer (links down below), I used icon fonts. Icon fonts are exactly the same as regular fonts, only rather than showing the alphabet in any form we can recognize they show images. The benefits of this are:
+<ul>
+<li>Infinite scalability</li>
+<li>Easy colour changing</li>
+<li>Less bandwidth</li>
+</ul>
+The inifinite scalability comes from the fact that the fonts are vectors. Since they are vectors, they will look the same whether they are 40 pixels wide or 4000. The easy colour changing comes from the fact that the colour of the font is not preset and unlike images where you have to create a new image if you want it to react on hover or on click, icon fonts can be manipulated just like text. It also is less bandwidth to import a font than to import multiple images, making your site faster and more responsive.
+</p>
+
+<p>
+<h2>Creative CSS</h2>
+Don't be afraid to get creative with your CSS! On my site, rather than having a logo, I just used a font that I liked and styled it using CSS. Now, you can get even more creative and use CSS to create your logo, but I wouldn't recommend that. If you have a logo, or images that you absolutely <i>need</i>, you can use the next section to help your users out!
+</p>
+
+<p>
+<h2>Local Storage</h2>
+Local storage is a feature in javascript that allows you to store information locally on a user's computer. 
