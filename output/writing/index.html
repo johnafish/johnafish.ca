@@ -1,26 +1,71 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <meta name="description" content="John Fish's personal site.">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Fauna+One|Habibi' rel='stylesheet' type='text/css'>
     <title>
         Articles
     </title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
 </head>
+<script src="sort.js"></script>
 <body>
 <nav>
-    <a href="articles.html" class="navLink">a</a>
+    <a href="#" class="navLink">a</a>
     <a href="../about.html" class="navLink">&Uuml;</a>
     <a href="../index.html" class="home">johnafish</a>
 </nav>
 <section id="main">
     <article>
         <h1>Articles</h1>
+        <span>Show: </span><select class="sort">
+            <option value="all">All</option>
+            <option value="code">Code</option>
+            <option value="writing">Writing</option>
+            <option value="isu">ISU</option>
+            <option value="meta">Meta</option>
+        </select>
         <ul>
-<li><a href="perfection.html">Strive For Perfection
-</a></li><li><a href="kidsability.html">Teaching at Kidsability
-</a></li><li><a href="imageless.html">Imageless Design
-</a></li>        </ul>
+<li class="articleitem meta
+"><a class="articletitle" href="track_sf.txt.html">Decisions: Track vs Science Fair
+</a><br /><span class="featuretext">We're all forced to make difficult decisions. How do we know when they're the right ones?
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem meta
+"><a class="articletitle" href="update.html">Update
+</a><br /><span class="featuretext">An update on what's been going on with this site.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem code
+"><a class="articletitle" href="product_development.html">Wordpress Product Development
+</a><br /><span class="featuretext">My Notes on Austin Gunter (<a href="https://twitter.com/austingunter">@austingunter</a>)'s talk on Wordpress Product Development
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem writing
+"><a class="articletitle" href="kidsability.html">Teaching at Kidsability
+</a><br /><span class="featuretext">My experience teaching at Kidsability.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu_o4.html">Goodness and Morality
+</a><br /><span class="featuretext">What is goodness? How can we be good? Aristotle has some thoughts.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu_06.html">Goodness of Character
+</a><br /><span class="featuretext">For an action to be good is one thing; for a character to be good is entirely another.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu_05.html">Natural Impulses
+</a><br /><span class="featuretext">Everyone has natural impulses - it is simply evolutionarily part of life. Should we try to control them?
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu_03.html">The Coexistence of Aristotle and Alexander
+</a><br /><span class="featuretext">It is by no mere coincidence that one of the greatest philisophical minds and one of the greatest political minds were alive at the same time.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu_02.html">The Influence of Plato on Aristotle
+</a><br /><span class="featuretext">Two philisophical titans and their influence on each other.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem isu
+"><a class="articletitle" href="isu01.html">Aristotle: First Impressions
+</a><br /><span class="featuretext">First impressions of the book Aristotle by Sir David Ross.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem meta
+"><a class="articletitle" href="features.html">New Features??
+</a><br /><span class="featuretext">New features have just been added to the website. Take a look!
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li><li class="articleitem writing
+"><a class="articletitle" href="aristotle_life.html">The (Wonderful) Life of Aristotle
+</a><br /><span class="featuretext">As part of an unofficial series on Aristotle, we are exploring his life and death.
+</span><br /><span class="date">Created Wed May 20, 2015</span><br /><br /></li>        </ul>
     </article>
 </section>
 <section id="footer">

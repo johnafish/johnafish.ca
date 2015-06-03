@@ -1,0 +1,19 @@
+* {
+	font-family: Habibi;
+}
+#article {
+	max-height: 400px;
+	overflow: auto;
+}
+img {
+	max-height: 600px;
+}
+blockquote {
+    background: #FBFBFB;
+    border-left: 3px solid #1079E8;
+    padding: 15px;
+    font-style: italic;
+}
+blockquote:hover {
+    border-left: 5px solid #1079E8;
+}

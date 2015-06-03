@@ -13,7 +13,7 @@
          url('fonts/socialicons/MonoSocialIconsFont-1.10.woff') format('woff'),
          url('fonts/socialicons/MonoSocialIconsFont-1.10.ttf') format('truetype');
 }
-* {
+html, body, p, h1, h2, h3 {
     margin: 0px;
     padding: 0px;
 }
@@ -49,6 +49,7 @@ nav a {
 nav a:hover {
     color: #1079E8;
 }
+
 @media all and (min-width: 1500px) {
     h1 {
         font-size: 32px;
@@ -57,7 +58,7 @@ nav a:hover {
         font-size: 28px;
         }
     h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
     article {
         font-size: 20px;
@@ -68,20 +69,13 @@ nav a:hover {
     .navLink {
         font-size: 64px;
     }
-    li a {
+    .articletitle {
         font-size: 28px;
-    }
-    article p:first-letter {
-        font-size: 24px;
-        font-weight: bold;
-    }
-    article p:first-line {
-        font-size: 24px;
     }
 }
 @media all and (max-width: 1500px) and (min-width: 1100px) {
     h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
     h2 {
         font-size: 24px;
@@ -90,7 +84,7 @@ nav a:hover {
         font-size: 20px;
     }
     article {
-        font-size: 18px;
+        font-size: 20px;
     }
     nav a {
         font-size: 64px;
@@ -98,15 +92,8 @@ nav a:hover {
     .navLink {
         font-size: 56px;
     }
-    li a {
+    .articletitle {
         font-size: 24px;
-    }
-    article p:first-letter {
-        font-size: 22px;
-        font-weight: bold;
-    }
-    article p:first-line {
-        font-size: 22px;
     }
 }
 @media all and (max-width: 1100px) {
@@ -114,13 +101,13 @@ nav a:hover {
         font-size: 24px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
     h3 {
         font-size: 18px;
     }
     article {
-        font-size: 16px;
+        font-size: 18px;
     }
     nav a {
         font-size: 48px;
@@ -128,15 +115,8 @@ nav a:hover {
     .navLink {
         font-size: 36px;
     }
-    li a {
+    .articletitle {
         font-size: 20px;
-    }
-    article p:first-letter {
-        font-size: 19px;
-        font-weight: bold;
-    }
-    article p:first-line {
-        font-size: 19px;
     }
 }
 article {
@@ -156,11 +136,8 @@ article a:visited {
 article a:hover {
     color: #444;
 }
-ul {
-    list-style-type: none;
-}
 article p {
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 20px 0px;
     line-height: 150%;
 }
 
@@ -186,4 +163,44 @@ article p {
 #footer a:hover {
     opacity: 1;
     color: #1079E8;
+}
+.date {
+    font-size: 0.7em;
+}
+.articleitem {
+    list-style-type: none;
+}
+h1 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+h2 {
+    margin-top: 1em;
+}
+h3 {
+    margin-top: 0.5em;
+}
+.meta {
+    list-style-image: url("meta.png") !important;
+}
+.code {
+    list-style-image: url("code.png") !important;
+}
+.isu {
+    list-style-image: url("isu.png") !important;
+}
+.writing {
+    list-style-image: url("writing.png") !important;
+}
+.sort {
+    font-family: Habibi;
+}
+blockquote {
+    background: #FBFBFB;
+    border-left: 3px solid #1079E8;
+    padding: 15px;
+    font-style: italic;
+}
+blockquote:hover {
+    border-left: 5px solid #1079E8;
 }
