@@ -107,6 +107,12 @@ $(function(){
 	$("#blockquote").click(function(){
 		$("#article").append("<blockquote>blockquote</blockquote>");
 	});
+	$("#code").click(function(){
+		$("#article").append("<code>code</code>");
+	});
+	$("#b").click(function(){
+		$("#article").append("<b>bold</b>");
+	});
 	$("#clear").click(function(){
 		var confirm = window.confirm("Do you really want to clear all data?");
 		if (confirm==true){
