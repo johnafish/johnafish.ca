@@ -1,6 +1,6 @@
 #Trout, written by John Fish in July 2013.
 #Updated July 3, 2015
-import os sys, time
+import os, sys, time
 
 curPath = os.getcwd()
 
