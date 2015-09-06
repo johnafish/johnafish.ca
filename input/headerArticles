@@ -3,7 +3,7 @@
 <head>
     <meta name="description" content="John Fish's personal site.">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <link href='http://fonts.googleapis.com/css?family=Fauna+One|Habibi' rel='stylesheet' type='text/css'>
     <title>
         Articles
@@ -14,9 +14,11 @@
 <script src="sort.js"></script>
 <body>
 <nav>
-    <a href="#" class="navLink">a</a>
-    <a href="../about.html" class="navLink">&Uuml;</a>
-    <a href="../index.html" class="home">johnafish</a>
+    <a href="../index.html" class="home">johnafish</a><br/>
+    <a href="#" class="navLink activeLink">writing</a>
+    <a href="../projects.html" class="navLink">projects</a>
+    <a href="../resume.pdf" class="navLink">cv</a>
+    <a href="../social.html" class="navLink">social</a>
 </nav>
 <section id="main">
     <article>

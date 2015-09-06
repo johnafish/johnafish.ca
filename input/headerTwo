@@ -1,5 +1,5 @@
-</title>
-<script type="text/javascript">
+    </title>
+    <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-26209841-1']);
@@ -16,9 +16,11 @@
 </head>
 <body>
 <nav>
-    <a href="index.html" class="navLink">a</a>
-    <a href="../about.html" class="navLink">&Uuml;</a>
-    <a href="../index.html" class="home">johnafish</a>
+    <a href="../index.html" class="home">johnafish</a><br/>
+    <a href="index.html" class="navLink">writing</a>
+    <a href="../projects.html" class="navLink">projects</a>
+    <a href="../resume.pdf" class="navLink">cv</a>
+    <a href="../social.html" class="navLink">social</a>
 </nav>
 <section id="main">
     <article>
