@@ -2,8 +2,11 @@ html, body, p, h1, h2, h3 {
     margin: 0px;
     padding: 0px;
 }
+p, h1, h2, h3, a {
+    opacity: 0.87;
+}
 html {
-    background: #FEFEFE;
+    background: #FFF;
     height: 100%;
 }
 body {
@@ -15,7 +18,8 @@ nav {
     margin: 1% 20% 0 0;
 }
 .navLink {
-    font-family: Fauna One;
+    font-family: Raleway;
+    font-weight: 200;
     position: relative;
     display: inline-block;
     transition: all .25s ease-in-out;
@@ -51,7 +55,8 @@ nav {
   transform: scaleX(1);
 }
 .home {
-    font-family: Fauna One;
+    font-family: Raleway;
+    font-weight: 200;
 }
 
 nav a {
@@ -128,10 +133,10 @@ nav a:hover {
         font-size: 18px;
     }
     nav a {
-        font-size: 62px;
+        font-size: 96px;
     }
     .navLink {
-        font-size: 18px;
+        font-size: 28px;
     }
     .articletitle {
         font-size: 20px;
@@ -142,7 +147,8 @@ article {
     width: 60%;
     margin: 20px auto;
     text-align: justify;
-    font-family: Habibi, serif;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
     color: #111;
 }
 article a {
@@ -161,11 +167,15 @@ article p {
     padding: 0px 0px 40px 0px;
     line-height: 150%;
 }
+article img {
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0px 0px 10px -4px black;
+}
 .profilePicture {
     width: 200px;
     float: left;
     border-radius: 100%;
-    border: 10px solid #F1F1F1;
     margin: 0px 10px;
 }
 
@@ -193,7 +203,7 @@ article p {
     list-style-image: url("writing/writing.png") !important;
 }
 .sort {
-    font-family: Habibi;
+    font-family: Raleway, sans-serif;
 }
 blockquote {
     background: #FBFBFB;
