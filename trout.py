@@ -6,7 +6,7 @@ curPath = os.getcwd()
 
 def writeFile(fileName):
     article = open(curPath+'/input/rawarticles/'+fileName, 'r+')
-    articleHTML = open(curPath+'/output/writing/'+fileName+'.html', 'w')
+    articleHTML = open(curPath+'/writing/'+fileName+'.html', 'w')
     os.chdir(curPath)
     headerOne = open('input/headerOne', 'r+')
     headerTwo = open('input/headerTwo', 'r+')
@@ -32,14 +32,14 @@ def resetAll():
     writeFooterToArticlePage()
 
 def writeHeaderToArticlePage():
-    articlePage = open('output/writing/index.html', 'w')
+    articlePage = open('writing/index.html', 'w')
     headerArticles = open('input/headerArticles', 'r+')
     articlePage.write(headerArticles.read())
 
 def writeFilesToArticlePage(fileName):
     os.chdir(curPath)
     article_file = "{0}/input/rawarticles/{1}".format(curPath, fileName)
-    articlePage = open('output/writing/index.html', 'a')
+    articlePage = open('writing/index.html', 'a')
     article = open('input/rawarticles/'+fileName, 'r+')
     modified_time = time.ctime(os.path.getctime(article_file)).split()
     user_time = str(modified_time[0]+" "+modified_time[1]+" "+modified_time[2]+", "+modified_time[4])
@@ -47,7 +47,7 @@ def writeFilesToArticlePage(fileName):
     
 def writeFooterToArticlePage():
     os.chdir(curPath)
-    articlePage = open('output/writing/index.html', 'a')
+    articlePage = open('writing/index.html', 'a')
     footerArticles = open('input/footerArticles', 'r+')
     articlePage.write(footerArticles.read())
     
