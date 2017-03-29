@@ -42,7 +42,7 @@ def writeFilesToArticlePage(fileName):
     article_file = "{0}/input/rawarticles/{1}".format(curPath, fileName)
     articlePage = open('writing/index.html', 'a')
     article = open('input/rawarticles/'+fileName, 'r+')
-    modified_time = time.ctime(os.path.getctime(article_file)).split()
+    modified_time = time.ctime(os.path.getmtime(article_file)).split()
     user_time = str(modified_time[0]+" "+modified_time[1]+" "+modified_time[2]+", "+modified_time[4])
     articlePage.write('<li class="articleitem '+article.readline()+'"><a class="articletitle" href="'+fileName+'.html">'+article.readline()+'</a><br /><span class="featuretext">'+article.readline()+'</span><br /><span class="date">Created '+user_time+'</span><br /><br /></li>')
     
