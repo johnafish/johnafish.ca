@@ -22,7 +22,8 @@ def resetAll():
     os.chdir("input/rawarticles")
     articles = []
     for files in os.listdir("."):
-        articles.append(files)
+        if(files[0]!="."):
+            articles.append(files)
     articles.sort(key=lambda x: os.path.getctime(x))
     articles.reverse()
     for article in articles:
