@@ -42,7 +42,7 @@ header h1 {
 body article {
 	display: block;
 	width: 70vw;
-	margin: 2em auto;
+	margin: 1.5em auto;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-family: Helvetica, sans-serif;
@@ -67,6 +67,37 @@ body article iframe {
 	text-align: center;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
 .workList {
 	text-align: center;
+	list-style-type: none;
+}
+
+.work {
+	height: 1.5em;
+	line-height: 1.5em;
+	margin: 1em 0em;
+}
+
+.work a {
+	color: rgba(0,0,0,0.87);
+	font-size: 1.2em;
+}
+
+.work a:hover {
+	color: rgba(0,0,0,1);
+}
+
+.date {
+	font-size: 0.6em;
+	color: rgba(0,0,0,.56);
+	margin: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: rgba(220,220,220,1);
 }

@@ -20,7 +20,7 @@ def writeFile(out, name, content):
 def indexEntry(fileName, date):
 	months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 	month = months[int(date[1])-1]
-	indexFile.write("<li class='work'><a href='"+fileName+".html'>"+nameFormat(fileName)+"</a><span class='date'>"+month+" "+date[0]+", "+date[2]+"</li>")
+	indexFile.write("<hr><li class='work'><a href='"+fileName+".html'>"+nameFormat(fileName)+"</a><span class='date'>"+month+" "+date[0]+", "+date[2]+"</li>")
 
 def writeFiles():
 	indexFile.write(headerOne)
