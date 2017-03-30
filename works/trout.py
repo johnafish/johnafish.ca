@@ -28,16 +28,29 @@ def writeFiles():
 	indexFile.write(headerTwo)
 	indexFile.write("<ul class='workList'>")
 
-	for file in os.listdir("."):
-		if(file[-3:]==".md"):
-			fileName = file[:-3]
+	articles = {}
 
-			out=open(fileName+".html", "w")
-			fileContent = open(file, "r")
-			date = fileContent.readline().split(",")
-			writeFile(out, fileName, fileContent.read())
-			indexEntry(fileName, date)
-			out.close()
+	for file in os.listdir("."):
+		if(file[-3:]!=".md"):
+			continue
+		fileName = file[:-3]
+
+		inp = open(file, "r")
+		date = inp.readline().split(",")
+		articles[fileName] = int(date[2])*365+int(date[1])*30+int(date[0])
+		inp.close()
+
+	print(articles)
+	print(sorted(articles, key=articles.__getitem__))
+	for fileName in sorted(articles, key=articles.__getitem__, reverse=True):
+		print(fileName)
+		inp = open(fileName+".md", "r")
+		out=open(fileName+".html", "w")
+		date = inp.readline().split(",")
+		writeFile(out, fileName, inp.read())
+		indexEntry(fileName, date)
+		inp.close()
+		out.close()
 
 	indexFile.write("</ul>")
 	indexFile.write(footer)
