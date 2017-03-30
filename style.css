@@ -34,13 +34,39 @@ header h1 {
 	color: rgba(0,0,0,0.56);
 }
 
-.nav:hover, .active {
+.nav:hover, .nav.active {
 	color: rgba(0,0,0,1);
 	cursor: pointer;
 }
 
-body article.featured {
+body article {
 	display: block;
 	width: 70vw;
 	margin: 2em auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+}
+
+body article code {
+	background: rgba(230,230,230,1);
+	padding: 4px;
+	border-radius: 2px;
+	border: 1px solid rgba(220,220,220,1);
+}
+
+body article blockquote {
+	background: rgba(235,235,235,1);
+	border-left: 5px solid rgba(100,100,100,1);
+	padding: 10px;
+	font-style: italic;
+}
+
+body article iframe {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.workList {
+	text-align: center;
 }
