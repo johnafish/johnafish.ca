@@ -34,7 +34,7 @@ header h1 {
 	color: rgba(0,0,0,0.56);
 }
 
-.nav:hover, .active {
+.nav:hover, .nav.active {
 	color: rgba(0,0,0,1);
 	cursor: pointer;
 }

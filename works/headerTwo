@@ -4,10 +4,10 @@
 </head>
 
 <header>
-	<h1>John Fish</h1>
-	<a href="resume.pdf">r&eacute;sum&eacute;</a>
-	<a href="works">works</a>
-	<a href="social.html">social</a>
+	<h1><a class="home" href="../index.html">John Fish</a></h1>
+	<a class="nav" href="../resume.pdf">r&eacute;sum&eacute;</a>
+	<a class="nav active" href="index.html">works</a>
+	<a class="nav" href="../social.html">social</a>
 </header>
 
 <body>
