@@ -2,10 +2,11 @@ import markdown, os
 
 path = os.getcwd()
 
-headerOne = open("headerOne", "r").read()
-headerTwo = open("headerTwo", "r").read()
-footer = open("footer", "r").read()
-indexFile = open("index.html", "w")
+headerOne = open("works/headerOne", "r").read()
+headerTwo = open("works/headerTwo", "r").read()
+footer = open("works/footer", "r").read()
+indexFile = open("works/index.html", "w")
+home = open("index.html", "w")
 
 def nameFormat(name):
 	return name
@@ -22,6 +23,11 @@ def indexEntry(fileName, date):
 	month = months[int(date[1])-1]
 	indexFile.write("<hr><li class='work'><a href='"+fileName+".html'>"+nameFormat(fileName)+"</a><span class='date'>"+month+" "+date[0]+", "+date[2]+"</li>")
 
+def writeFeatured(featuredArticle):
+	home.write(open("works/indexHeader", "r").read())
+	home.write(markdown.markdown(featuredArticle))
+	home.write(footer)
+
 def writeFiles():
 	indexFile.write(headerOne)
 	indexFile.write(nameFormat("works"))
@@ -30,22 +36,29 @@ def writeFiles():
 
 	articles = {}
 
-	for file in os.listdir("."):
+	for file in os.listdir("works"):
 		if(file[-3:]!=".md"):
 			continue
 		fileName = file[:-3]
 
-		inp = open(file, "r")
+		inp = open("works/"+file, "r")
 		date = inp.readline().split(",")
 		articles[fileName] = int(date[2])*365+int(date[1])*30+int(date[0])
 		inp.close()
 
-	print(articles)
-	print(sorted(articles, key=articles.__getitem__))
+	featured = False
+
 	for fileName in sorted(articles, key=articles.__getitem__, reverse=True):
-		print(fileName)
-		inp = open(fileName+".md", "r")
-		out=open(fileName+".html", "w")
+		inp = open("works/"+fileName+".md", "r")
+		out=open("works/"+fileName+".html", "w")
+
+		if not featured:
+			featured=True
+			inp.readline()
+			writeFeatured(inp.read())
+			inp.close()
+			inp = open("works/"+fileName+".md", "r")
+
 		date = inp.readline().split(",")
 		writeFile(out, fileName, inp.read())
 		indexEntry(fileName, date)
