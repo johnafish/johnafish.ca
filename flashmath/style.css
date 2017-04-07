@@ -1,0 +1,96 @@
+html {
+	font-family: sans-serif;
+	background-color: #3198C4;
+}
+body {
+	width: 300px;
+	text-align: center;
+	margin: 0px auto;
+}
+.hometitle {
+	font-family: Source Sans Pro;
+	font-size: 4em;
+}
+.getit {
+	margin-top: 50px;
+	display: block;
+	float: left;
+}
+.bbget {
+	width: 129px;
+	margin-right: 20px;
+	margin-left: 11px;
+}
+.play {
+	text-decoration: none;
+	font-size: 3em;
+	padding: 0.5em;
+	display: block;
+	font-family: Source Sans Pro;
+	background-color: #247191;
+	color: white;
+	border-radius: 5em;
+	box-shadow: #18485C 0px 4px;
+}
+.question {
+	text-shadow: #247191 0 2px;
+	font-size: 3em;
+	height: 100px;
+	line-height: 100px;
+}
+.title {
+	font-size: 3em;
+	text-shadow: #247191 0 2px;
+}
+h1, h2, h3 {
+	color: #eee;
+}
+.answer {
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;
+	width: 50%;
+	font-size: 1.5em;
+	border-radius: 1em;
+	outline: none;
+	border: none;
+}
+.next {
+	margin: 10px;
+	padding: 5px;
+	font-size: 1.5em;
+	outline: none;
+	border: none;
+	background-color: #247191;
+	color: white;
+	border-radius: 1em;
+	box-shadow: #18485C 0px 4px;
+	min-width: 60px;
+}
+.next:hover, .play:hover {
+	box-shadow: #18485C 0px 2px;
+}
+.next:active, .play:hover {
+	box-shadow: #18485C 0px 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+.ad {
+	position: fixed;
+	bottom: 0px;
+}
+.big {
+	font-size: 3em !important;
+	margin: 15px !important;
+	padding: 10px !important;
+}
+.go {
+	display: none;
+}
