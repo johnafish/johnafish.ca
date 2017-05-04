@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automate My Life</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Followers: <span id="followers"></span></h1>
+<h2><span id="status"></span></h2>
+<div id="graph"></div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCgM4aKW4YO_NugJZNE1XPCWncFGX31OZc",
+    authDomain: "pystagram-4a356.firebaseapp.com",
+    databaseURL: "https://pystagram-4a356.firebaseio.com",
+    projectId: "pystagram-4a356",
+    storageBucket: "pystagram-4a356.appspot.com",
+    messagingSenderId: "1093628312674"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>

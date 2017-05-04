@@ -1,0 +1,15 @@
+h1, h2 {
+	font-family: Helvetica;
+	font-weight: 200;
+	text-align: center;
+}
+
+h1 span {
+	font-weight: bold;
+}
+
+#graph {
+	margin: 0px auto !important;
+	width: 800px;
+	display: block;
+}
