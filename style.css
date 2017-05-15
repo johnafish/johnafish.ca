@@ -12,6 +12,9 @@ header h1 {
 	font-weight: bolder;
 	line-height: 0.1em;
 }
+h1 {
+	font-size: 2em;
+}
 
 .home:visited, .home:link {
 	color: rgba(0,0,0,0.87);
