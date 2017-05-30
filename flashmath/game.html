@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+<script type="text/javascript" src="mathjax/MathJax.js?config=AM_HTMLorMML-full"></script>
+<script src="jquery.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>FlashMath</title>
+</head>
+<body>
+
+<div class="p402_premium">
+  <h2 class="title">Choose your operations</h2>
+  <span class='next' onclick='operations.push("+");$(this).fadeOut();$(".go").show();'>+</span>
+  <span class='next' onclick='operations.push("-");$(this).fadeOut();$(".go").show();'>-</span>
+  <span class='next' onclick='operations.push("*");$(this).fadeOut();$(".go").show();'>&#215;</span>
+  <span class='next' onclick='operations.push("/");$(this).fadeOut();$(".go").show();'>&#247;</span>
+  <br/>
+  <input type='button' value='GO!' class='next big go' onclick='$(".next").remove();$(".title").remove();launch();' />
+</div>
+<script type="text/javascript">
+  try { _402_Show(); } catch(e) {}
+</script>
+<script src="game.js" type="text/javascript"></script>
+</body>
+</html>
