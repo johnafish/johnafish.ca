@@ -8,7 +8,7 @@ h1 span {
 	font-weight: bold;
 }
 
-#graph {
+.chart {
 	margin: 0px auto !important;
 	width: 800px;
 	display: block;
