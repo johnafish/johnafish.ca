@@ -1,8 +1,8 @@
 20,9,2017
-#CS50 Section #2
+# CS50 Section #2
 
 
-##On Booleans
+## On Booleans
 A quick note, don't do this:
 
 ```
@@ -23,7 +23,7 @@ if (bool)
 
 Much better.
 
-##On Style
+## On Style
  - Four spaces for indentation
  - Spaces around keywords and operators
  	- Excluding unary operators (<code>!x</code>,<code>x++</code> are valid)
@@ -40,7 +40,7 @@ Merge Sort => O(n log n)
 
 [For descriptions of above algorithms](https://visualgo.net/en/sorting)
 
-##Pointers and Memory
+## Pointers and Memory
 
 Memory in a computer consists of a long "array" of possible locations, each denoted by an "address" (eg `0x53`). These addresses are virtually mapped to physical memory (RAM 🐑). Each address corresponds to one byte of memory.
 
@@ -119,7 +119,7 @@ _note that sizeof(char) is always 1_
 
 Which allocates the memory appropriately.
 
-###malloc()
+### malloc()
 `malloc(size_in_bytes)` allocates the correct number of bytes.
 
 If `malloc()` fails, it returns `NULL`--you can't dereference `NULL`. So we should always check:
@@ -130,7 +130,7 @@ if (arr == NULL) {
 }
 ```
 
-###free()
+### free()
 C doesn't implement garbage collection or anything like that. If you malloc something, you must also free it. Otherwise, it's a memory leak.
 
 We can do this by calling:
@@ -141,7 +141,7 @@ free(arr);
 
 But only do it once, otherwise C has no idea what to do.
 
-##Strings
+## Strings
 `string` in `cs50.h` literally just replaces `string` with `char *` (since a string is an array of chars which is a pointer to the first element).
 
 ### A cool way to iterate through a string
