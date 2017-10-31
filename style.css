@@ -4,48 +4,75 @@ html {
 
 header {
 	font-family: Helvetica, sans-serif;
-	text-align: center;
+	text-align: left;
+    padding: 20px;
+    background-color: #a51c30;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
 }
 
-header h1 {
-	font-size: 10em;
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header .home { 
+    font-size: 2em;
 	font-weight: bolder;
 	line-height: 0.1em;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 100%;
 }
+
 h1 {
 	font-size: 2em;
 }
 
 .home:visited, .home:link {
-	color: rgba(0,0,0,0.87);
+	color: rgba(255,255,255,0.87);
 }
 
 .home:hover {
-	color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+    background: rgba(0,0,0,0.5);
+    transition: 0.2s ease-in-out;
 }
 
-.home {
+.home, .nav {
 	text-decoration: none;
 }
 
 .nav {
 	font-size: 2em;
+    font-weight: bolder;
 	margin: 0em 1em;
 }
 
 .nav:visited, .nav:link {
-	color: rgba(0,0,0,0.56);
+	color: rgba(255,255,255,.56);
 }
 
 .nav:hover, .nav.active {
-	color: rgba(0,0,0,1);
+	color: rgba(255,255,255,0.87);
+    transition: 0.2s ease-in-out;
 	cursor: pointer;
 }
-
+.me {
+    border-radius: 100%;
+    width: 10em;    
+    padding: 0em 2em;
+    float: left;
+}
+.intro {
+    line-height: 2em;
+}
 body article {
 	display: block;
 	width: 70vw;
-	margin: 1.5em auto;
+	margin: 5.5em auto;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-family: Helvetica, sans-serif;
@@ -85,6 +112,10 @@ hr {
 	height: 1.5em;
 	line-height: 1.5em;
 	margin: 1em 0em;
+    padding: 1em;
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+    border-radius: 0.5em;
 }
 
 .work a {
