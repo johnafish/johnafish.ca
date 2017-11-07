@@ -6,7 +6,9 @@ header {
 	font-family: Helvetica, sans-serif;
 	text-align: left;
     padding: 20px;
-    background-color: #a51c30;
+    border-top: 3px solid #a51c30;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(248, 248, 248, 1);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -22,7 +24,7 @@ header .home {
     font-size: 2em;
 	font-weight: bolder;
 	line-height: 0.1em;
-    background: rgba(0,0,0,0.3);
+    background: rgba(165,28,48,0.87);
     padding: 10px;
     border-radius: 100%;
 }
@@ -37,7 +39,7 @@ h1 {
 
 .home:hover {
 	color: rgba(255,255,255,1);
-    background: rgba(0,0,0,0.5);
+    background: rgba(165,28,48,1);
     transition: 0.2s ease-in-out;
 }
 
@@ -52,11 +54,11 @@ h1 {
 }
 
 .nav:visited, .nav:link {
-	color: rgba(255,255,255,.56);
+	color: rgba(0,0,0,0.87);
 }
 
 .nav:hover, .nav.active {
-	color: rgba(255,255,255,0.87);
+	color: rgba(165,28,48,1);
     transition: 0.2s ease-in-out;
 	cursor: pointer;
 }
@@ -106,6 +108,7 @@ hr {
 .workList {
 	text-align: center;
 	list-style-type: none;
+    overflow: auto;
 }
 
 .work {
@@ -114,24 +117,42 @@ hr {
 	margin: 1em 0em;
     padding: 1em;
     width: 100%;
-    background: rgba(0,0,0,0.05);
     border-radius: 0.5em;
+    position: relative;
 }
 
 .work a {
+    position: relative;
 	color: rgba(0,0,0,0.87);
+    border: transparent;
+    border-top: 3px solid rgba(165,28,48,0.87);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 	font-size: 1.2em;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    transition: 0.2s ease-in-out;
 }
 
 .work a:hover {
-	color: rgba(0,0,0,1);
+    border-left: 3px solid rgba(165,28,48,0.87);
+    border-right: 3px solid rgba(165,28,48,0.87);
+    border-bottom: 3px solid rgba(165,28,48,0.87);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.work a:hover + .date {
+    margin-top: 29px;
 }
 
 .date {
+    position: absolute;
 	font-size: 0.6em;
 	color: rgba(0,0,0,.56);
-	margin: 10px;
-	padding: 5px;
+    margin-top: 30px;
+    margin-left: -30px;
+	padding: 0px 5px;
 	border-radius: 3px;
 	background-color: rgba(220,220,220,1);
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 }
