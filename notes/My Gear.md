@@ -37,4 +37,22 @@ I used to hate spending more than $0.25 on a pencil. What's the point, right? Wr
 
 Leuchtturm makes simple, no nonsense, high quality notebooks. This is the best notebook that I've ever used--better than any moleskine, for sure. I use it every day, and it cost me less than $20. Definitely worth it.
 
+## Personal Stuff
+
+- [My Watch](http://amzn.to/2qh0Xud)
+
+I have gone through maybe 5 of these Fitbits over a few years. They've been really good to me, I'm just really hard on them since I've worn them 24/7. They're feature-complete (GPS, accurate heart rate monitor, GREAT battery, sleep tracking, etc.) and you can sometimes snap them up for a really good deal.
+
+- [My Phone](http://amzn.to/2E1lIfx)
+
+The Oneplus 3 is now a couple of generations behind, meaning it can be had for a really good price. Does it hold up though? Yes! I honestly prefer the form factor to my roommate's Oneplus 5, and it has huge advantages over iOS. I've had mine for quite some time now, and I have no regrets at all.
+
+ - [My Diffuser](http://amzn.to/2CPjhNB)
+
+
+It's cool looking, nicely made, and not super expensive for the quality. Holds a fair bit of water! Doubles as a humidifier.
+
+ - [Nuun Tablets](http://amzn.to/2CPjhNB)
+
+I love putting these in my water to get some extra vitamins and to rehydrate. This is a huge deal as well -- around 50% off what you'll find in most stores. 50/50 caffeinated/uncaffeinated I find is a good mix as well, with good flavors.
 
