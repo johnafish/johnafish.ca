@@ -49,8 +49,11 @@ The Oneplus 3 is now a couple of generations behind, meaning it can be had for a
 
  - [My Diffuser](http://amzn.to/2CPjhNB)
 
-
 It's cool looking, nicely made, and not super expensive for the quality. Holds a fair bit of water! Doubles as a humidifier.
+
+ - [My Essential Oils](http://amzn.to/2BGr5D1)
+
+A nice set of only the _essential_ essential oils. They've served me well, I can't complain too much.
 
  - [Nuun Tablets](http://amzn.to/2CPjhNB)
 
