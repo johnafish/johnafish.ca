@@ -59,3 +59,6 @@ A nice set of only the _essential_ essential oils. They've served me well, I can
 
 I love putting these in my water to get some extra vitamins and to rehydrate. This is a huge deal as well -- around 50% off what you'll find in most stores. 50/50 caffeinated/uncaffeinated I find is a good mix as well, with good flavors.
 
+ - [My Tea Kettle](http://amzn.to/2BEvgit)
+
+Basically famous at this point, I use this kettle multiple times a day and it's amazing. Quick to boil, looks aesthetic, easy to clean, I love it.
