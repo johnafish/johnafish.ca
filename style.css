@@ -108,7 +108,8 @@ hr {
 .workList {
 	text-align: center;
 	list-style-type: none;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .work {
