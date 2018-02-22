@@ -55,7 +55,7 @@ It's cool looking, nicely made, and not super expensive for the quality. Holds a
 
 A nice set of only the _essential_ essential oils. They've served me well, I can't complain too much.
 
- - [Nuun Tablets](http://amzn.to/2CPjhNB)
+ - [Nuun Tablets](http://amzn.to/2oo1V3F)
 
 I love putting these in my water to get some extra vitamins and to rehydrate. This is a huge deal as well -- around 50% off what you'll find in most stores. 50/50 caffeinated/uncaffeinated I find is a good mix as well, with good flavors.
 
