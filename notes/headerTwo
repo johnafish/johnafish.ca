@@ -10,6 +10,13 @@
 
       gtag('config', 'UA-26209841-1');
     </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2804197438980390",
+          enable_page_level_ads: true
+     });
+    </script>
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"f7ee2fd68c0a065d783547120","lid":"07f136e960"}) })</script>
 </head>
 
