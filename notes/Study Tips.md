@@ -3,7 +3,7 @@
 
 I've always been smart, but I haven't always done very well in school. Especially in elementary and middle school, I struggled to fit my learning to a typical classroom environment. Throughout the years I have gradually developed a series of techniques that work well for me, allowing me to be succeed in school without sacrificing mental or physical health--my most important priorities.
 
-These strategies were what allowed me to get into a college like Harvard, and they helped me to earn a cumulative GPA of 4.0. This article, and the accompanying video, will be primarily geared towards studying in general (including general homework, tests, exams). A later video will cover more principles specifically geared towards exam and test review.
+These strategies were what allowed me to get into a college like Harvard, and do quite well there. This article, and the accompanying video, will be primarily geared towards studying in general (including general homework, tests, exams). A later video will cover more principles specifically geared towards exam and test review.
 
 ## 1. Right Body, Right Mind
 
@@ -30,10 +30,6 @@ Lyrical music has a tendency to make you want to sing along, which distracts you
 
 Having tea/water around while studying is something that I've found helps me focus. Staying hydrated is part of fueling your body but also has a really good mental effect (at least on me). Being able to sip something while working is like productive fidgeting. It also reminds my body that I'm in "study mode", so I don't get distracted.
 
-### Aromatherapy
-
-Aromatherapy is something new that I've been experimenting with recently. Using essential oils to create a calm environment can help some people focus. It's definitely not critical, but it's worth a shot.
-
 ## 3. Right Work
 
 If we're going to dedicate time to sleep and exercise, we need to be sure that we are efficient with our time. This means that we have to be sure that we're doing the right work (choosing the right battles), and that we're doing our work right. Doing our work right boils down to having focused work, which I achieve using the pomodoro method:
@@ -41,3 +37,8 @@ If we're going to dedicate time to sleep and exercise, we need to be sure that w
 ### The Pomodoro Method
 
 I use a method of study called the "Pomodoro Method". It essentially breaks 30 minute periods into a 25 minute session of focused work and a 5 minute session of rest. I won't go on my phone or do anything except the task at hand while in the 25 minute session, and I won't do anything productive in the 5 minute rest.
+
+### Have a Focused Purpose
+
+You should know exactly what you are working on right now and you should develop a plan so you don't have to worry about what to do next. This way, you can dedicate all of your time into actually working as opposed to stressing about how much work you have yet to do.
+
