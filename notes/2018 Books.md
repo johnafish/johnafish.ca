@@ -1,4 +1,4 @@
-22,2,2018
+8,3,2018
 # 2018 Books
 
 My goal is to read 52 books in 2018. At the time of updating this list, we're 10 weeks in and I'm about 10.5 books in. And it's totally changed my life. Here are a list of the books I've read so far, in order, with a totally arbitrary ranking out of 5.
