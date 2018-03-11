@@ -35,7 +35,7 @@ I used to hate spending more than $0.25 on a pencil. What's the point, right? Wr
 
 - [My Notebook](http://amzn.to/2BBPTwg)
 
-Leuchtturm makes simple, no nonsense, high quality notebooks. This is the best notebook that I've ever used--better than any moleskine, for sure. I use it every day, and it cost me less than $20. Definitely worth it.
+I'm going to be launching my own notebook soon, so if you can hold out for a couple of months, [subscribe to my newsletter and get a notebook personalized to my method for a discount](https://goo.gl/31jEMe). If you can't wait, Leuchtturm makes simple, no nonsense, high quality notebooks. This is the best notebook that I've ever used--better than any moleskine, for sure. I use it every day, and it cost me less than $20. Definitely worth it.
 
 ## Personal Stuff
 
