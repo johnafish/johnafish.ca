@@ -43,7 +43,13 @@ My goal is to read 52 books in 2018. At the time of updating this list, we're 10
  
  I have never really read an entire poetry anthology before. I've always had a sweet spot for poems and poetry but there has never been a poet that captivated me as Mary Oliver has. I read through this anthology in a few days, rarely putting it down, returning time and time again to the poems that made me feel amazingly alive. Honestly, a truly inspirational artistic work. **5/5**
  
- 10. [Buffetology](http://amzn.to/2GWNrPY) - Mary Buffett
+ 11. [Outliers]() - Malcolm Gladwell
+  4.25/5
  
- In progress...**4/5 so far**
+ 12. [Buffetology](http://amzn.to/2GWNrPY) - Mary Buffett
  
+ In progress...**3.25/5 so far**
+ 13. flow
+ 14. good to great
+ 15. pitch anything
+ 16. jonathan livingston seagull
